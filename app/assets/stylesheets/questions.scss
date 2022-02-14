@@ -1,0 +1,89 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
+body {
+  background-color: #221F22;
+  color: #FCFCFA;
+  font-family: 'Source Code Pro';
+  h1 {
+    color: #FE6088;
+  }
+  p {
+    color: #FED966;
+  }
+}
+
+.container {
+  margin: 5rem auto;
+  padding-left: 5rem;
+}
+
+.question {
+  background-color: #79DCE8;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 20vw;
+  color: #221F22;
+  p {
+    color: #FE6088;
+  }
+}
+
+.answer {
+  background-color: #2D2A2E;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 20vw;
+  margin-bottom: 4rem;
+}
+
+a {
+  margin-top: 2rem;
+  border: 2px solid #FE6088;
+  background-color: #221F22;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #FE6088;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  margin-top: 2rem;
+  background-color: #FE6088;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #2D2A2E;
+  text-decoration: none;
+}
+
+input[type=text] {
+  width: 20vw;
+  padding: 1rem;
+  background-color: #2D2A2E;
+  border: 2px solid #FE6088;
+  border-radius: 1rem;
+  font-family: 'Source Code Pro';
+  color: #FCFCFA;
+}
+
+input[type=submit] {
+  border: 2px solid #FE6088;
+  background-color: #221F22;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #FE6088;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+input[type=submit]:hover {
+  background-color: #FE6088;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #2D2A2E;
+  text-decoration: none;
+  cursor: pointer;
+}
